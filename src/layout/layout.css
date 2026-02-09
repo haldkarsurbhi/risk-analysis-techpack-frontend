@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background-color: #f6f7f9;
+}
+
+.sidebar {
+  width: 230px;
+  height: 100vh;
+  background: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 14px 0;
+  cursor: pointer;
+  color: #333;
+}
+
+.sidebar li:hover {
+  color: #0b5ed7;
+}
+
+.topbar {
+  height: 60px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  margin-left: 230px;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  margin-left: 230px;
+  margin-top: 60px;
+  padding: 25px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 30px;
+  width: 240px;
+  text-align: center;
+  font-weight: 500;
+}
