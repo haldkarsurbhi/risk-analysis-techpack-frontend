@@ -37,7 +37,7 @@ api.interceptors.response.use(
 
 // Upload tech pack PDF
 export const uploadTechPack = async (formData) => {
-  const response = await api.post('/api/techpack/analyse', formData, {
+  const response = await api.post('/analyse-techpack', formData, {
     headers: {
       'Content-Type': 'multipart/form-data',
     },

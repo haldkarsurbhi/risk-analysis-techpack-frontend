@@ -13,7 +13,7 @@ const Sidebar = () => {
 
   const menuItems = [
     { path: '/techpack', label: 'Techpack Analysis', icon: ScanLine },
-    { path: '/risk', label: 'Risk Check', icon: ShieldAlert },
+    { path: '/risk', label: 'Risk Analyzer', icon: ShieldAlert },
     { path: '/criticality', label: 'Complexity', icon: BarChart2 },
     { path: '/reports', label: 'Reports', icon: FileText },
   ];
