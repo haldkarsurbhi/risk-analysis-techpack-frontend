@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Login from './pages/Login';
-import TechPackAnalysis from './pages/TechPackAnalysis';
+import TechPackAnalysis from './pages/TechPackAnalysis.jsx';
 import RiskAnalysis from './pages/RiskAnalysis';
 import Criticality from './pages/Criticality';
 import Reports from './pages/Reports';
